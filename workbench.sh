@@ -76,7 +76,8 @@ export workspace
 
 echo $workspace > workbench.code-workspace
 
+source workbench/workbench-post.sh
+
 git add .
 git commit -m"Initial commit, Workbench created."
 
-source workbench/workbench-post.sh
