@@ -82,10 +82,10 @@ With the "What of it" out of the way about the files, let's take another step to
 
 ### Steps
 
-1. Open a terminal instance.
-2. Get the workbench bits: git clone <https://github.com/johnvpetersen/workbench.git>
-3. Navigate to the folder where you wish to establish a new workbench instance. For example: ~/repos/workbenchtest.
-4. From within the workbenchtest directory, execute the workbench.sh script. For example, if you cloned the repo to ~/bin/workbench, the command to execute is: sh ~/bin/workbench/workbench.sh.
+1. Navigate to https://github.com/johnvpetersen/workbench/blob/main/install.sh and copy the contents to a local script file.
+2. Specify the correct target directory in the new script file.
+3. Open a terminal instance.
+4. Execute the script
 
 We begin with a workbench environment that organizes our workspace around the following concepts:
 
