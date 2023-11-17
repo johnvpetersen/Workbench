@@ -76,6 +76,8 @@ The following is a quick, simple, and easy approach to getting started.
 
 **cicd.sh** - The local build, test, deploy script. 
 
+*install.sh** and **workbench-post-example.txt** are included to illustrate how simple the process can be to get up and running, as well as how to leverage the post processing script to add a submodule, perform some upgrades, and test to ensure no adverse effects; all in a systemized way. 
+
 With the "What of it" out of the way about the files, let's take another step toward implementation by cloning the repository and executing the bits locally to produce a test harness that may be built upon.
 
 ### Steps
