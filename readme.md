@@ -58,6 +58,9 @@ Quality requires that as much as we can verify functionality on the  developer's
 
 The following is a quick, simple, and easy approach to getting started.
 
+<<[https://github.com/johnvpetersen/workbench](https://github.com/johnvpetersen/workbench/blob/main/workbench.mp4)>>
+
+
 ### GitHub repository
 
 <<https://github.com/johnvpetersen/workbench>>
