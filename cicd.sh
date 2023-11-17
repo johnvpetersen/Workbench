@@ -10,6 +10,5 @@ dotnet build -c debug
 dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=lcov.info
 #deploy
 dotnet publish
-#launch
-cd tests/integration/bin/release/net8.0/publish  
-dotnet  integration.dll --urls "http://localhost:5001"%  
+#launch  
+dotnet  tests/integration/bin/release/net8.0/publish/integration.dll --urls "http://localhost:5001"
