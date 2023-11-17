@@ -1,0 +1,18 @@
+# clone submodule
+git submodule add https://github.com/johnvpetersen/DynamicLambda.git dependencies/submodules/dynamiclambda
+
+# add references to cloned projects to .net solution
+dotnet sln add dependencies/submodules/dynamiclambda/Core/Core.csproj
+dotnet sln add dependencies/submodules/dynamiclambda/Core.Test/Core.Test.csproj
+
+
+# add reference to non-test cloned projects to integration test project
+dotnet add tests/integration/integration.csproj   reference dependencies/submodules/dynamiclambda/Core/Core.csproj
+
+# update both cloned projects to .net 8
+sed -i -E 's|<TargetFramework>.*</TargetFramework>|<TargetFramework>net8.0</TargetFramework>|' dependencies/submodules/dynamiclambda/Core/Core.csproj
+sed -i -E 's|<TargetFramework>.*</TargetFramework>|<TargetFramework>net8.0</TargetFramework>|' dependencies/submodules/dynamiclambda/Core.Test/Core.Test.csproj
+
+
+# add code coverage to cloned test project
+dotnet add dependencies/submodules/dynamiclambda/Core.Test/Core.Test.csproj  package coverlet.msbuild --version 6.0.0
