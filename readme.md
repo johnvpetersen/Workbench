@@ -58,12 +58,12 @@ Quality requires that as much as we can verify functionality on the  developer's
 
 The following is a quick, simple, and easy approach to getting started.
 
-<<[Workbench video (mp4)](https://github.com/johnvpetersen/workbench/blob/main/workbench.mp4)>>
+<[Workbench video (mp4)](https://github.com/johnvpetersen/workbench/blob/main/workbench.mp4)>
 
 
 ### GitHub repository
 
-<<https://github.com/johnvpetersen/workbench>>
+<https://github.com/johnvpetersen/workbench>
 
 ### The files
 
