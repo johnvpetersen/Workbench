@@ -73,6 +73,8 @@ The following is a quick, simple, and easy approach to getting started.
 
 **NOTE: once a workbench instance has been created, a copy of the workbench scripts are also copied. From that point on, you may modify the scripts as needed to accommodate the specifics for a given project. To balance flexibility with some standards, the standard pre and post processing scripts are available to handle specific customizations that must be accommodated within a standard approach if that approach is expected to be useful.
 
+**workbench-clone.sh** - a simple, stand alone script to clone a repo under the sut directory and open VS Code. Feature is demonstrated in workbench-clone.mp4.
+
 **workbench-pre.sh** - a location for your pre-processing needs. By default, workbench-pre.sh references **workbench-remove.sh**. You can organize and refactor the scripts as you see fit. Like any other software, as its used and maintained, it develops and evolves as new circumstances warrant.  As the workbench environment is refined, it must quickly be able to quickly be torn down and re-established under the new specifications.
 
 **workbench-post.sh** - a location for your post-processing needs. a common use case is to establish any dependencies like other libraries, and repos as submodules.
